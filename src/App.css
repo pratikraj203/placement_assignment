@@ -161,3 +161,29 @@ img:hover {
   white-space: nowrap;
   margin: 10px;
 }
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 10px; /* Adjust the padding for better mobile visibility */
+  }
+
+  form {
+    margin: 10px; /* Adjust the margin for better mobile visibility */
+  }
+
+  button {
+    width: 100%; /* Make buttons full width on mobile */
+  }
+
+  .panel-inputs {
+    flex-direction: column; /* Stack panel inputs on mobile */
+  }
+
+  .panel-text,
+  .annotation-text {
+    width: 100%; /* Make textareas full width on mobile */
+  }
+
+  .comic-panel {
+    margin: 5px; /* Adjust margin for better mobile visibility */
+  }
+}
